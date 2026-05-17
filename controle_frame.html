@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle do Robô Frame</title>
+    <style>
+        /* ================= ESTILOS (CSS) ================= */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .status {
+            font-size: 0.9em;
+            color: #e74c3c;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .status.conectado {
+            color: #27ae60;
+        }
+
+        /* Botão de Conectar */
+        #btnConectar {
+            background-color: #34495e;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-bottom: 30px;
+            transition: background 0.3s;
+        }
+
+        #btnConectar:hover { background-color: #2c3e50; }
+
+        /* Grid do Controle Remoto */
+        .controle-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        /* Botões de Direção */
+        .btn-dir {
+            background-color: #ecf0f1;
+            border: 2px solid #bdc3c7;
+            border-radius: 15px;
+            padding: 20px;
+            font-size: 24px;
+            cursor: pointer;
+            transition: all 0.2s;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+
+        .btn-dir:active {
+            transform: scale(0.95);
+            background-color: #d5dbdb;
+        }
+
+        /* Posicionamento no Grid */
+        .btn-up { grid-column: 2; background-color: #fff9c4; border-color: #f1c40f;} /* Amarelo */
+        .btn-left { grid-column: 1; background-color: #ffcdd2; border-color: #e74c3c;} /* Vermelho */
+        .btn-right { grid-column: 3; background-color: #c8e6c9; border-color: #2ecc71;} /* Verde */
+        .btn-down { grid-column: 2; background-color: #bbdefb; border-color: #3498db;} /* Azul */
+
+        /* Botões de Ação */
+        .acoes {
+            display: flex;
+            gap: 10px;
+            justify-content: space-between;
+        }
+
+        .btn-acao {
+            flex: 1;
+            padding: 15px;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .btn-acao:active { transform: scale(0.95); }
+        .btn-play { background-color: #2c3e50; } /* Preto/Escuro */
+        .btn-limpar { background-color: #e74c3c; }
+
+        /* Terminal visual para ver os comandos */
+        .terminal-display {
+            margin-top: 20px;
+            background: #1e1e1e;
+            color: #00ff00;
+            padding: 10px;
+            border-radius: 8px;
+            font-family: monospace;
+            height: 60px;
+            overflow-y: auto;
+            text-align: left;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Controle Frame</h1>
+        <div id="statusTexto" class="status">Desconectado</div>
+        
+        <button id="btnConectar">🔌 Conectar ao Robô</button>
+
+        <div class="controle-grid">
+            <button class="btn-dir btn-up" onclick="adicionarAFila('F')">⬆️</button>
+            <button class="btn-dir btn-left" onclick="adicionarAFila('L')">⬅️</button>
+            <button class="btn-dir btn-down" onclick="adicionarAFila('B')">⬇️</button>
+            <button class="btn-dir btn-right" onclick="adicionarAFila('R')">➡️</button>
+        </div>
+
+        <div class="acoes">
+            <button class="btn-acao btn-limpar" onclick="limparFilaLocal()">🗑️ Limpar</button>
+            <button class="btn-acao btn-play" onclick="enviarFilaParaRobo()">▶️ Executar</button>
+        </div>
+
+        <div class="terminal-display" id="logTerminal">
+            Aguardando conexão...
+        </div>
+    </div>
+
+    <script>
+        let port;
+        let writer;
+        let filaComandos = "";
+
+        const btnConectar = document.getElementById('btnConectar');
+        const statusTexto = document.getElementById('statusTexto');
+        const logTerminal = document.getElementById('logTerminal');
+
+        // Função para atualizar o mini-terminal na tela
+        function log(mensagem, isComando = false) {
+            const prefix = isComando ? "🤖" : ">";
+            logTerminal.innerHTML += `<div>${prefix} ${mensagem}</div>`;
+            logTerminal.scrollTop = logTerminal.scrollHeight; // Rola para o final
+        }
+
+        // Conectar ao Arduino
+        btnConectar.addEventListener('click', async () => {
+            if ('serial' in navigator) {
+                try {
+                    // Pede pro usuário selecionar a porta COM
+                    port = await navigator.serial.requestPort();
+                    
+                    // Abre a porta com o mesmo BaudRate do Arduino (9600)
+                    await port.open({ baudRate: 9600 });
+                    
+                    // Prepara para escrever dados
+                    const textEncoder = new TextEncoderStream();
+                    const writableStreamClosed = textEncoder.readable.pipeTo(port.writable);
+                    writer = textEncoder.writable.getWriter();
+
+                    statusTexto.innerText = "Conectado com Sucesso!";
+                    statusTexto.classList.add("conectado");
+                    btnConectar.style.display = "none";
+                    log("Porta serial aberta. Pronto para comandar!");
+
+                } catch (error) {
+                    log("Erro ao conectar: " + error);
+                }
+            } else {
+                alert('Seu navegador não suporta a Web Serial API. Use o Google Chrome no computador.');
+            }
+        });
+
+        // Função para adicionar comando à fila LOCAL do HTML
+        function adicionarAFila(comando) {
+            filaComandos += comando;
+            
+            let nomeComando = "";
+            if(comando === 'F') nomeComando = "Frente";
+            if(comando === 'B') nomeComando = "Trás";
+            if(comando === 'L') nomeComando = "Esquerda";
+            if(comando === 'R') nomeComando = "Direita";
+            
+            log("Adicionado: " + nomeComando);
+            log("Fila atual: " + filaComandos, true);
+        }
+
+        // Limpa a fila no HTML e envia comando de reset para o Arduino (X)
+        async function limparFilaLocal() {
+            filaComandos = "";
+            log("Fila limpa localmente.");
+            
+            if (writer) {
+                try {
+                    await writer.write("X\n");
+                    log("Comando de RESET enviado ao robô.", true);
+                } catch (e) {
+                    log("Erro ao resetar robô: " + e);
+                }
+            }
+        }
+
+        // Envia a string completa acumulada para o Arduino
+        async function enviarFilaParaRobo() {
+            if (!writer) {
+                alert("Por favor, conecte o robô primeiro clicando em 'Conectar'.");
+                return;
+            }
+
+            if (filaComandos.length === 0) {
+                alert("Adicione movimentos à fila primeiro!");
+                return;
+            }
+
+            try {
+                // Envia a string (ex: "FFLRB") que o Arduino processará como uma sequência
+                await writer.write(filaComandos + "\n");
+                log("Enviando sequência: " + filaComandos, true);
+                
+                // Limpa a fila após enviar para nova programação
+                filaComandos = "";
+            } catch (error) {
+                log("Erro ao enviar: " + error);
+            }
+        }
+    </script>
+</body>
+</html>if(comando === 'E') nomeComando = "EXECUTAR FILA";
+                if(comando === 'X') nomeComando = "LIMPAR FILA";
+                
+                log("Enviado: " + nomeComando);
+            } catch (error) {
+                log("Erro ao enviar: " + error);
+            }
+        }
+    </script>
+</body>
+</html>
