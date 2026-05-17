@@ -41,7 +41,7 @@ const int pinoKeypad = A2; // Pino analógico para o keypad
 #define PULSOS_POR_VOLTA_DIR 43 // Pulsos por volta - Roda DIREITA
 #define PULSOS_POR_VOLTA_ESQ 43 // Pulsos por volta - Roda ESQUERDA
 #define LIMITE_DETECCAO 300     // Threshold calibrado
-                           // ==============================================
+                                // ==============================================
 
 // Variáveis calculadas automaticamente
 float CIRCUNFERENCIA_RODA;
