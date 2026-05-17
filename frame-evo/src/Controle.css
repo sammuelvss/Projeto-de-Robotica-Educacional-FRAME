@@ -1,130 +1,186 @@
-.controle-container {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f7f6;
-    color: #333;
+.controle-page {
+    background: transparent;
+    min-height: 100vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
     padding: 20px;
+}
+
+.main-card {
+    background: var(--bg-surface);
+    width: 100%;
+    max-width: 500px;
+    border-radius: 40px;
+    box-shadow: 0 30px 100px rgba(0,0,0,0.5);
+    border: 1px solid var(--border);
+    padding: 30px;
     box-sizing: border-box;
 }
 
-.container-inner {
-    background-color: white;
-    padding: 30px;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+/* Header Estilizado */
+.header-ludico {
     text-align: center;
-    max-width: 400px;
-    width: 100%;
-}
-
-.container-inner h1 {
-    color: #2c3e50;
-    margin-bottom: 5px;
-    margin-top: 0;
-}
-
-.status {
-    font-size: 0.9em;
-    color: #e74c3c;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-
-.status.conectado {
-    color: #27ae60;
-}
-
-/* Botão de Conectar */
-#btnConectar {
-    background-color: #34495e;
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 8px;
-    font-size: 16px;
-    cursor: pointer;
     margin-bottom: 30px;
-    transition: background 0.3s;
 }
 
-#btnConectar:hover { background-color: #2c3e50; }
+.header-ludico h1 {
+    font-size: 2.2rem;
+    margin: 0 0 10px;
+    color: var(--text-h);
+}
 
-/* Grid do Controle Remoto */
-.controle-grid {
+.status-pill {
+    display: inline-block;
+    padding: 10px 24px;
+    margin-top: 30px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    background: var(--bg-card);
+}
+
+.status-pill.off { color: var(--text); border: 1px solid var(--border); }
+.status-pill.on { background: var(--success-green); color: #000; box-shadow: 0 0 20px var(--success-green); }
+
+/* D-PAD */
+.remote-control {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.d-pad {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-    margin-bottom: 20px;
+    grid-template-columns: repeat(3, 85px);
+    grid-template-rows: repeat(3, 85px);
+    gap: 12px;
+    background: var(--bg-card);
+    padding: 20px;
+    border-radius: 35px;
+    border: 2px solid var(--border);
 }
 
-/* Botões de Direção */
-.btn-dir {
-    background-color: #ecf0f1;
-    border: 2px solid #bdc3c7;
-    border-radius: 15px;
-    padding: 20px;
-    font-size: 24px;
+.dir-btn {
+    border: none;
+    border-radius: 22px;
+    font-size: 2.2rem;
     cursor: pointer;
-    transition: all 0.2s;
-    color: #2c3e50;
-    font-weight: bold;
+    background: var(--bg-surface);
+    box-shadow: 0 6px 0 #000;
+    transition: all 0.1s;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.btn-dir:active {
-    transform: scale(0.95);
-    background-color: #d5dbdb;
-}
-
-/* Posicionamento no Grid */
-.btn-up { grid-column: 2; background-color: #fff9c4; border-color: #f1c40f;} /* Amarelo */
-.btn-left { grid-column: 1; background-color: #ffcdd2; border-color: #e74c3c;} /* Vermelho */
-.btn-right { grid-column: 3; background-color: #c8e6c9; border-color: #2ecc71;} /* Verde */
-.btn-down { grid-column: 2; background-color: #bbdefb; border-color: #3498db;} /* Azul */
-
-/* Botões de Ação */
-.acoes {
-    display: flex;
-    gap: 10px;
-    justify-content: space-between;
-}
-
-.btn-acao {
-    flex: 1;
-    padding: 15px;
-    border: none;
-    border-radius: 10px;
-    font-size: 16px;
-    font-weight: bold;
     color: white;
-    cursor: pointer;
-    transition: transform 0.2s;
 }
 
-.btn-acao:active { transform: scale(0.95); }
-.btn-play { background-color: #2c3e50; } /* Preto/Escuro */
-.btn-limpar { background-color: #e74c3c; }
+.dir-btn:active {
+    transform: translateY(6px);
+    box-shadow: 0 0px 0 #000;
+}
 
-/* Terminal visual para ver os comandos */
-.terminal-display {
-    margin-top: 20px;
-    background: #1e1e1e;
-    color: #00ff00;
-    padding: 10px;
-    border-radius: 8px;
-    font-family: monospace;
-    height: 100px;
+.up { grid-column: 2; grid-row: 1; border: 2px solid var(--robot-yellow); }
+.left { grid-column: 1; grid-row: 2; border: 2px solid var(--danger-red); }
+.right { grid-column: 3; grid-row: 2; border: 2px solid var(--success-green); }
+.down { grid-column: 2; grid-row: 3; border: 2px solid var(--primary-joy); }
+
+.center-dot {
+    grid-column: 2;
+    grid-row: 2;
+    background: var(--border);
+    border-radius: 50%;
+    margin: 25px;
+    opacity: 0.3;
+}
+
+/* Zona de Programação */
+.programming-zone {
+    background: var(--bg-card);
+    border-radius: 25px;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid var(--border);
+}
+
+.programming-zone h3 { margin-top: 0; font-size: 1.1rem; color: var(--accent); }
+
+.preview-area {
+    min-height: 70px;
+    background: var(--bg-surface);
+    border-radius: 18px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    border: 2px dashed var(--border);
+    margin-bottom: 20px;
+}
+
+.fila-icon {
+    font-size: 1.8rem;
+    background: var(--bg-card);
+    padding: 8px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+}
+
+.placeholder { color: var(--text); opacity: 0.5; font-size: 0.95rem; }
+
+.action-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.action-btn {
+    flex: 1;
+    border: none;
+    padding: 18px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    cursor: pointer;
+    color: white;
+    transition: all 0.2s;
+}
+
+.action-btn:active { transform: scale(0.95); }
+.clear { background: var(--danger-red); box-shadow: 0 4px 15px rgba(255, 77, 77, 0.3); }
+.go { background: var(--accent); box-shadow: 0 4px 15px var(--accent-glow); }
+
+/* Terminal */
+.terminal-ludico {
+    height: 120px;
+    background: #000;
+    color: var(--success-green);
+    border-radius: 25px;
+    padding: 20px;
+    font-family: var(--mono);
+    font-size: 0.9rem;
     overflow-y: auto;
     text-align: left;
-    font-size: 14px;
+    border: 1px solid var(--border);
 }
 
-.log-prefix {
-    color: #aaa;
+.log-line { margin-bottom: 8px; border-bottom: 1px solid #111; padding-bottom: 4px; }
+.emoji { margin-right: 10px; filter: drop-shadow(0 0 5px currentColor); }
+
+/* Welcome Area */
+.welcome-area { text-align: center; padding: 50px 0; }
+.welcome-area p { color: var(--text); margin-bottom: 30px; font-size: 1.1rem; }
+
+.btn-conectar-ludico {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 20px 50px;
+    border-radius: 50px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 10px 30px var(--accent-glow);
 }
+
+.btn-conectar-ludico:hover { transform: translateY(-5px); box-shadow: 0 15px 40px var(--accent-glow); }

@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import Controle from './Controle'
@@ -12,7 +10,7 @@ function App() {
     return (
       <>
         <button className="back-button" onClick={() => setView('home')}>
-          ← Voltar
+          ← Voltar ao Início
         </button>
         <Controle />
       </>
@@ -23,110 +21,47 @@ function App() {
     <>
       <section id="center">
         <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
+          <img src={heroImg} className="base" width="220" alt="Robô FRAME" />
         </div>
-        <div>
-          <h1>Frame Evo</h1>
-          <p>
-            Plataforma de controle para o robô educacional FRAME.
+        <div className="text-container">
+          <h1>FRAME Evo</h1>
+          <p className="subtitle">
+            Plataforma Educacional de Robótica
+          </p>
+          <p className="description">
+            Controle e programe seu robô FRAME de forma intuitiva através da Web Serial API.
           </p>
         </div>
         <button
           type="button"
-          className="counter"
+          className="main-button"
           onClick={() => setView('controle')}
         >
-          Abrir Controle do Robô
+          Iniciar Controle do Robô
         </button>
       </section>
 
       <div className="ticks"></div>
 
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
+      <section id="info-section">
+        <div className="info-card">
+           <h3>Conexão Direta</h3>
+           <p>Utilize o cabo USB para conectar seu robô diretamente ao navegador.</p>
         </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
+        <div className="info-card">
+           <h3>Programação em Fila</h3>
+           <p>Adicione comandos de movimento e execute sequências completas.</p>
+        </div>
+        <div className="info-card">
+           <h3>Interface Intuitiva</h3>
+           <p>Desenvolvido para facilitar o aprendizado de lógica e robótica.</p>
         </div>
       </section>
 
       <div className="ticks"></div>
-      <section id="spacer"></section>
+      <section id="footer">
+        <p>&copy; 2024 Projeto de Robótica Educacional FRAME</p>
+      </section>
     </>
   )
 }

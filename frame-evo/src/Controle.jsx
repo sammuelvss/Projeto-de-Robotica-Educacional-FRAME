@@ -2,17 +2,17 @@ import React, { useState, useRef, useEffect } from 'react';
 import './Controle.css';
 
 const Controle = () => {
-    const [status, setStatus] = useState('Desconectado');
+    const [status, setStatus] = useState('Pronto para começar?');
     const [conectado, setConectado] = useState(false);
     const [filaComandos, setFilaComandos] = useState('');
-    const [logs, setLogs] = useState([{ prefix: '>', msg: 'Aguardando conexão...' }]);
+    const [logs, setLogs] = useState([{ prefix: '🤖', msg: 'Olá! Vamos programar meu caminho?' }]);
     
     const portRef = useRef(null);
     const writerRef = useRef(null);
     const logTerminalRef = useRef(null);
 
     const addLog = (msg, isComando = false) => {
-        setLogs(prev => [...prev, { prefix: isComando ? '🤖' : '>', msg }]);
+        setLogs(prev => [...prev, { prefix: isComando ? '⚡' : '🤖', msg }]);
     };
 
     useEffect(() => {
@@ -24,109 +24,132 @@ const Controle = () => {
     const conectar = async () => {
         if ('serial' in navigator) {
             try {
-                // Pede pro usuário selecionar a porta COM
                 const port = await navigator.serial.requestPort();
-                
-                // Abre a porta com o mesmo BaudRate do Arduino (9600)
                 await port.open({ baudRate: 9600 });
-                
-                // Prepara para escrever dados
                 const textEncoder = new TextEncoderStream();
                 textEncoder.readable.pipeTo(port.writable);
                 writerRef.current = textEncoder.writable.getWriter();
                 portRef.current = port;
 
-                setStatus('Conectado com Sucesso!');
+                setStatus('Uhuu! Estou conectado!');
                 setConectado(true);
-                addLog('Porta serial aberta. Pronto para comandar!');
+                addLog('Conectado! Escolha as setas para me mover.');
 
             } catch (error) {
-                addLog('Erro ao conectar: ' + error);
+                addLog('Ops! Tente conectar de novo.');
             }
         } else {
-            alert('Seu navegador não suporta a Web Serial API. Use o Google Chrome no computador.');
+            alert('Use o Google Chrome no computador para brincar!');
         }
     };
 
     const adicionarAFila = (comando) => {
         setFilaComandos(prev => prev + comando);
         
-        let nomeComando = "";
-        if(comando === 'F') nomeComando = "Frente";
-        if(comando === 'B') nomeComando = "Trás";
-        if(comando === 'L') nomeComando = "Esquerda";
-        if(comando === 'R') nomeComando = "Direita";
+        let emoji = "";
+        if(comando === 'F') emoji = "⬆️";
+        if(comando === 'B') emoji = "⬇️";
+        if(comando === 'L') emoji = "⬅️";
+        if(comando === 'R') emoji = "➡️";
         
-        addLog("Adicionado: " + nomeComando);
-        addLog("Fila atual: " + (filaComandos + comando), true);
+        addLog("Adicionei: " + emoji);
     };
 
     const limparFilaLocal = async () => {
         setFilaComandos('');
-        addLog("Fila limpa localmente.");
+        addLog("Fila limpa! Vamos criar uma nova?");
         
         if (writerRef.current) {
             try {
                 await writerRef.current.write("X\n");
-                addLog("Comando de RESET enviado ao robô.", true);
             } catch (e) {
-                addLog("Erro ao resetar robô: " + e);
+                console.error(e);
             }
         }
     };
 
     const enviarFilaParaRobo = async () => {
         if (!writerRef.current) {
-            alert("Por favor, conecte o robô primeiro clicando em 'Conectar'.");
+            alert("Clique em 'Conectar' primeiro!");
             return;
         }
 
         if (filaComandos.length === 0) {
-            alert("Adicione movimentos à fila primeiro!");
+            alert("Me diga para onde ir primeiro!");
             return;
         }
 
         try {
-            // Envia a string (ex: "FFLRB") que o Arduino processará como uma sequência
             await writerRef.current.write(filaComandos + "\n");
-            addLog("Enviando sequência: " + filaComandos, true);
-            
-            // Limpa a fila após enviar para nova programação
+            addLog("Partiu! Executando meus movimentos...", true);
             setFilaComandos('');
         } catch (error) {
-            addLog("Erro ao enviar: " + error);
+            addLog("Tive um probleminha ao enviar.");
         }
     };
 
+    const renderFilaPreview = () => {
+        return filaComandos.split('').map((cmd, i) => {
+            let icon = "";
+            if(cmd === 'F') icon = "⬆️";
+            if(cmd === 'B') icon = "⬇️";
+            if(cmd === 'L') icon = "⬅️";
+            if(cmd === 'R') icon = "➡️";
+            return <span key={i} className="fila-icon">{icon}</span>;
+        });
+    };
+
     return (
-        <div className="controle-container">
-            <div className="container-inner">
-                <h1>Controle Frame</h1>
-                <div className={`status ${conectado ? 'conectado' : ''}`}>{status}</div>
-                
-                {!conectado && (
-                    <button id="btnConectar" onClick={conectar}>🔌 Conectar ao Robô</button>
-                )}
+        <div className="controle-page">
+            <div className="main-card">
+                <header className="header-ludico">
+                    <h1>Controle FRAME</h1>
+                    <div className={`status-pill ${conectado ? 'on' : 'off'}`}>
+                        {status}
+                    </div>
+                </header>
 
-                <div className="controle-grid">
-                    <button className="btn-dir btn-up" onClick={() => adicionarAFila('F')}>⬆️</button>
-                    <button className="btn-dir btn-left" onClick={() => adicionarAFila('L')}>⬅️</button>
-                    <button className="btn-dir btn-down" onClick={() => adicionarAFila('B')}>⬇️</button>
-                    <button className="btn-dir btn-right" onClick={() => adicionarAFila('R')}>➡️</button>
-                </div>
+                <main className="game-board">
+                    {!conectado ? (
+                        <div className="welcome-area">
+                            <p>Conecte o cabo para começarmos a aventura!</p>
+                            <button className="btn-conectar-ludico" onClick={conectar}>
+                                🔌 Ligar Robô
+                            </button>
+                        </div>
+                    ) : (
+                        <>
+                            <div className="remote-control">
+                                <div className="d-pad">
+                                    <button className="dir-btn up" onClick={() => adicionarAFila('F')}>⬆️</button>
+                                    <button className="dir-btn left" onClick={() => adicionarAFila('L')}>⬅️</button>
+                                    <button className="dir-btn down" onClick={() => adicionarAFila('B')}>⬇️</button>
+                                    <button className="dir-btn right" onClick={() => adicionarAFila('R')}>➡️</button>
+                                    <div className="center-dot"></div>
+                                </div>
+                            </div>
 
-                <div className="acoes">
-                    <button className="btn-acao btn-limpar" onClick={limparFilaLocal}>🗑️ Limpar</button>
-                    <button className="btn-acao btn-play" onClick={enviarFilaParaRobo}>▶️ Executar</button>
-                </div>
+                            <div className="programming-zone">
+                                <h3>Minha Sequência:</h3>
+                                <div className="preview-area">
+                                    {filaComandos.length > 0 ? renderFilaPreview() : <span className="placeholder">Aguardando comandos...</span>}
+                                </div>
+                                <div className="action-buttons">
+                                    <button className="action-btn clear" onClick={limparFilaLocal}>🗑️ Limpar</button>
+                                    <button className="action-btn go" onClick={enviarFilaParaRobo}>▶️ Iniciar!</button>
+                                </div>
+                            </div>
+                        </>
+                    )}
+                </main>
 
-                <div className="terminal-display" ref={logTerminalRef}>
+                <footer className="terminal-ludico" ref={logTerminalRef}>
                     {logs.map((log, i) => (
-                        <div key={i}>
-                            <span className="log-prefix">{log.prefix}</span> {log.msg}
+                        <div key={i} className="log-line">
+                            <span className="emoji">{log.prefix}</span> {log.msg}
                         </div>
                     ))}
-                </div>
+                </footer>
             </div>
         </div>
     );
