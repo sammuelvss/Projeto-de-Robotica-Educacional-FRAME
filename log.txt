@@ -1,0 +1,1001 @@
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:38: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:463:58: note: in expansion of macro 'PULSOS_POR_VOLTA_DIR'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:4:27: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:54: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:463:43: note: in expansion of macro 'VOLTAS_POR_F'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:4:28: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:54: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:463:43: note: in expansion of macro 'VOLTAS_POR_F'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:42:33: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:54: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:463:58: note: in expansion of macro 'PULSOS_POR_VOLTA_DIR'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:42:34: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:54: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:463:58: note: in expansion of macro 'PULSOS_POR_VOLTA_DIR'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:464:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:464:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:464:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:464:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:464:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:464:12: error: stray '\240' in program
+In file included from C:\Users\Educa��o\AppData\Local\Temp\arduino\sketches\062234ACA46B3712B037DB3333E7AB7D\sketch\frameEvolution.ino.cpp:1:0:
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:4:27: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:24: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                        ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:464:43: note: in expansion of macro 'VOLTAS_POR_F'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:4:28: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:24: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                        ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:464:43: note: in expansion of macro 'VOLTAS_POR_F'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:43:33: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:24: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                        ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:464:58: note: in expansion of macro 'PULSOS_POR_VOLTA_ESQ'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:43:34: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:24: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                        ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:464:58: note: in expansion of macro 'PULSOS_POR_VOLTA_ESQ'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:4:27: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:38: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:464:43: note: in expansion of macro 'VOLTAS_POR_F'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:4:28: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:38: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:464:43: note: in expansion of macro 'VOLTAS_POR_F'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:43:33: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:38: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:464:58: note: in expansion of macro 'PULSOS_POR_VOLTA_ESQ'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:43:34: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:38: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:464:58: note: in expansion of macro 'PULSOS_POR_VOLTA_ESQ'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:4:27: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:54: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:464:43: note: in expansion of macro 'VOLTAS_POR_F'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:4:28: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:54: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:464:43: note: in expansion of macro 'VOLTAS_POR_F'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:43:33: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:54: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:464:58: note: in expansion of macro 'PULSOS_POR_VOLTA_ESQ'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:43:34: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:54: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:464:58: note: in expansion of macro 'PULSOS_POR_VOLTA_ESQ'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:465:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:465:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:465:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:465:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:465:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:465:12: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:466:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:466:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:466:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:466:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:466:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:466:12: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:4:27: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:466:27: note: in expansion of macro 'VOLTAS_POR_F'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:4:28: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:466:27: note: in expansion of macro 'VOLTAS_POR_F'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:467:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:467:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:467:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:467:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:467:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:467:12: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:468:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:468:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:468:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:468:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:468:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:468:12: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:469:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:469:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:469:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:469:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:470:1: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:470:2: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:470:4: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:470:5: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:470:7: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:470:8: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:471:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:471:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:471:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:471:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:471:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:471:12: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:472:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:472:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:472:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:472:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:472:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:472:12: error: stray '\240' in program
+In file included from C:\Users\Educa��o\AppData\Local\Temp\arduino\sketches\062234ACA46B3712B037DB3333E7AB7D\sketch\frameEvolution.ino.cpp:1:0:
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:5:27: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:24: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                        ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:472:43: note: in expansion of macro 'VOLTAS_POR_B'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:5:28: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:24: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                        ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:472:43: note: in expansion of macro 'VOLTAS_POR_B'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:42:33: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:24: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                        ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:472:58: note: in expansion of macro 'PULSOS_POR_VOLTA_DIR'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:42:34: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:24: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                        ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:472:58: note: in expansion of macro 'PULSOS_POR_VOLTA_DIR'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:5:27: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:38: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:472:43: note: in expansion of macro 'VOLTAS_POR_B'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:5:28: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:38: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:472:43: note: in expansion of macro 'VOLTAS_POR_B'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:42:33: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:38: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:472:58: note: in expansion of macro 'PULSOS_POR_VOLTA_DIR'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:42:34: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:38: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:472:58: note: in expansion of macro 'PULSOS_POR_VOLTA_DIR'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:5:27: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:54: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:472:43: note: in expansion of macro 'VOLTAS_POR_B'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:5:28: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:54: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:472:43: note: in expansion of macro 'VOLTAS_POR_B'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:42:33: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:54: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:472:58: note: in expansion of macro 'PULSOS_POR_VOLTA_DIR'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:42:34: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:54: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:472:58: note: in expansion of macro 'PULSOS_POR_VOLTA_DIR'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:473:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:473:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:473:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:473:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:473:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:473:12: error: stray '\240' in program
+In file included from C:\Users\Educa��o\AppData\Local\Temp\arduino\sketches\062234ACA46B3712B037DB3333E7AB7D\sketch\frameEvolution.ino.cpp:1:0:
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:5:27: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:24: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                        ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:473:43: note: in expansion of macro 'VOLTAS_POR_B'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:5:28: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:24: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                        ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:473:43: note: in expansion of macro 'VOLTAS_POR_B'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:43:33: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:24: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                        ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:473:58: note: in expansion of macro 'PULSOS_POR_VOLTA_ESQ'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:43:34: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:24: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                        ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:473:58: note: in expansion of macro 'PULSOS_POR_VOLTA_ESQ'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:5:27: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:38: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:473:43: note: in expansion of macro 'VOLTAS_POR_B'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:5:28: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:38: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:473:43: note: in expansion of macro 'VOLTAS_POR_B'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:43:33: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:38: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:473:58: note: in expansion of macro 'PULSOS_POR_VOLTA_ESQ'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:43:34: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:38: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:473:58: note: in expansion of macro 'PULSOS_POR_VOLTA_ESQ'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:5:27: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:54: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:473:43: note: in expansion of macro 'VOLTAS_POR_B'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:5:28: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:54: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:473:43: note: in expansion of macro 'VOLTAS_POR_B'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:43:33: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:54: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:473:58: note: in expansion of macro 'PULSOS_POR_VOLTA_ESQ'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:43:34: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:54: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:473:58: note: in expansion of macro 'PULSOS_POR_VOLTA_ESQ'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:474:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:474:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:474:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:474:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:474:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:474:12: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:475:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:475:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:475:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:475:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:475:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:475:12: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:5:27: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:475:27: note: in expansion of macro 'VOLTAS_POR_B'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:5:28: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:475:27: note: in expansion of macro 'VOLTAS_POR_B'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:476:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:476:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:476:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:476:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:476:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:476:12: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:477:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:477:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:477:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:477:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:477:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:477:12: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:478:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:478:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:478:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:478:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:479:1: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:479:2: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:479:4: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:479:5: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:479:7: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:479:8: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:480:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:480:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:480:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:480:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:480:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:480:12: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:481:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:481:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:481:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:481:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:481:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:481:12: error: stray '\240' in program
+In file included from C:\Users\Educa��o\AppData\Local\Temp\arduino\sketches\062234ACA46B3712B037DB3333E7AB7D\sketch\frameEvolution.ino.cpp:1:0:
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:7:27: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:24: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                        ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:481:43: note: in expansion of macro 'VOLTAS_POR_R'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:7:28: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:24: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                        ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:481:43: note: in expansion of macro 'VOLTAS_POR_R'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:7:27: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:38: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:481:43: note: in expansion of macro 'VOLTAS_POR_R'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:7:28: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:38: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:481:43: note: in expansion of macro 'VOLTAS_POR_R'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:7:27: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:54: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:481:43: note: in expansion of macro 'VOLTAS_POR_R'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:7:28: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:54: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:481:43: note: in expansion of macro 'VOLTAS_POR_R'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:482:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:482:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:482:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:482:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:482:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:482:12: error: stray '\240' in program
+In file included from C:\Users\Educa��o\AppData\Local\Temp\arduino\sketches\062234ACA46B3712B037DB3333E7AB7D\sketch\frameEvolution.ino.cpp:1:0:
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:7:27: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:24: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                        ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:482:43: note: in expansion of macro 'VOLTAS_POR_R'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:7:28: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:24: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                        ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:482:43: note: in expansion of macro 'VOLTAS_POR_R'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:7:27: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:38: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:482:43: note: in expansion of macro 'VOLTAS_POR_R'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:7:28: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:38: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:482:43: note: in expansion of macro 'VOLTAS_POR_R'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:7:27: error: stray '\302' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:54: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:482:43: note: in expansion of macro 'VOLTAS_POR_R'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:7:28: error: stray '\240' in program
+C:\Users\Educa��o\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.7\cores\arduino/Arduino.h:96:54: note: in definition of macro 'round'
+ #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+                                                      ^
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:482:43: note: in expansion of macro 'VOLTAS_POR_R'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:483:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:483:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:483:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:483:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:483:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:483:12: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:484:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:484:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:484:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:484:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:484:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:484:12: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:7:27: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:484:27: note: in expansion of macro 'VOLTAS_POR_R'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:7:28: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:484:27: note: in expansion of macro 'VOLTAS_POR_R'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:485:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:485:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:485:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:485:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:485:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:485:12: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:486:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:486:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:486:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:486:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:486:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:486:12: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:487:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:487:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:487:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:487:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:488:1: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:488:2: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:488:4: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:488:5: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:488:7: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:488:8: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:489:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:489:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:489:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:489:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:489:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:489:12: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:490:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:490:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:490:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:490:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:490:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:490:12: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:491:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:491:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:491:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:491:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:491:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:491:12: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:492:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:492:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:492:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:492:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:492:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:492:12: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:493:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:493:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:493:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:493:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:493:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:493:12: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:494:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:494:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:494:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:494:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:494:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:494:12: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:495:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:495:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:495:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:495:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:495:11: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:495:12: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:496:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:496:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:499:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:499:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:500:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:500:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:504:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:504:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:505:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:505:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:505:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:505:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:506:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:506:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:506:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:506:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:507:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:507:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:510:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:510:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:511:1: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:511:2: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:512:1: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:512:2: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:513:1: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:513:2: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:514:1: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:514:2: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:10:37: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:514:39: note: in expansion of macro 'CORRECAO_VELOCIDADE_DIR'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:10:38: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:514:39: note: in expansion of macro 'CORRECAO_VELOCIDADE_DIR'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:515:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:515:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:11:39: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:515:41: note: in expansion of macro 'CORRECAO_VELOCIDADE_ESQ'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:11:40: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:515:41: note: in expansion of macro 'CORRECAO_VELOCIDADE_ESQ'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:516:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:516:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:517:1: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:517:2: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:518:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:518:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:519:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:519:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:520:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:520:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:521:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:521:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:523:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:523:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:524:1: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:524:2: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:525:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:525:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:526:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:526:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:528:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:528:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:529:1: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:529:2: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:530:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:530:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:531:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:531:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:533:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:533:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:534:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:534:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:535:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:535:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:536:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:536:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:537:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:537:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:541:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:541:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:542:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:542:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:544:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:544:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:545:1: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:545:2: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:546:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:546:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:546:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:546:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:547:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:547:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:549:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:549:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:550:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:550:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:550:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:550:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:551:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:551:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:554:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:554:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:555:1: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:555:2: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:556:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:556:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:556:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:556:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:557:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:557:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:557:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:557:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:558:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:558:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:558:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:558:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:559:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:559:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:559:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:559:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:560:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:560:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:560:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:560:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:561:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:561:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:564:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:564:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:565:1: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:565:2: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:566:1: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:566:2: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:566:4: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:566:5: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:566:7: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:566:8: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:567:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:567:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:567:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:567:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:568:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:568:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:568:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:568:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:569:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:569:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:569:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:569:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:570:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:570:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:575:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:575:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:576:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:576:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:576:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:576:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:577:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:577:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:577:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:577:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:579:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:579:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:579:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:579:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:580:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:580:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:580:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:580:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:581:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:581:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:581:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:581:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:582:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:582:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:582:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:582:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:583:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:583:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:583:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:583:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:584:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:584:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:584:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:584:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:585:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:585:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:585:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:585:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:587:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:587:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:587:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:587:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:588:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:588:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:588:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:588:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:589:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:589:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:589:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:589:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:590:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:590:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:590:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:590:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:591:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:591:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:591:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:591:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:592:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:592:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:592:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:592:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:593:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:593:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:593:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:593:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:594:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:594:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:599:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:599:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:600:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:600:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:601:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:601:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:602:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:602:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:603:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:603:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:607:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:607:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:608:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:608:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:609:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:609:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:610:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:610:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:611:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:611:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:612:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:612:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:613:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:613:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:614:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:614:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:42:33: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:614:21: note: in expansion of macro 'PULSOS_POR_VOLTA_DIR'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:42:34: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:614:21: note: in expansion of macro 'PULSOS_POR_VOLTA_DIR'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:615:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:615:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:616:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:616:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:43:33: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:616:21: note: in expansion of macro 'PULSOS_POR_VOLTA_ESQ'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:43:34: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:616:21: note: in expansion of macro 'PULSOS_POR_VOLTA_ESQ'
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:620:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:620:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:621:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:621:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:622:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:622:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:624:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:624:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:625:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:625:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:627:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:627:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:628:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:628:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:628:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:628:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:629:7: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:629:8: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:629:10: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:629:11: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:629:13: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:629:14: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:630:7: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:630:8: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:630:10: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:630:11: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:630:13: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:630:14: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:631:9: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:631:10: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:631:12: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:631:13: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:631:15: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:631:16: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:631:18: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:631:19: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:632:9: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:632:10: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:632:12: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:632:13: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:632:15: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:632:16: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:634:7: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:634:8: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:634:10: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:634:11: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:637:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:637:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:637:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:637:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:638:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:638:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:638:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:638:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:640:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:640:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:640:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:640:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:641:7: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:641:8: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:641:10: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:641:11: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:641:13: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:641:14: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:642:7: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:642:8: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:642:10: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:642:11: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:642:13: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:642:14: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:643:7: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:643:8: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:643:10: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:643:11: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:646:7: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:646:8: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:646:10: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:646:11: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:646:13: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:646:14: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:647:7: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:647:8: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:647:10: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:647:11: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:649:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:649:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:649:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:649:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:651:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:651:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:651:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:651:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:652:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:652:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:655:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:655:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:656:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:656:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:658:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:658:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:659:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:659:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:661:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:661:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:662:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:662:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:664:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:664:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:665:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:665:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:665:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:665:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:666:7: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:666:8: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:666:10: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:666:11: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:666:13: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:666:14: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:667:7: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:667:8: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:667:10: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:667:11: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:667:13: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:667:14: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:668:9: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:668:10: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:668:12: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:668:13: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:668:15: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:668:16: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:668:18: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:668:19: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:669:9: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:669:10: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:669:12: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:669:13: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:669:15: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:669:16: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:671:7: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:671:8: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:671:10: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:671:11: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:674:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:674:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:674:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:674:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:675:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:675:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:675:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:675:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:677:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:677:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:677:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:677:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:678:7: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:678:8: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:678:10: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:678:11: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:678:13: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:678:14: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:679:7: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:679:8: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:679:10: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:679:11: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:679:13: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:679:14: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:680:7: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:680:8: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:680:10: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:680:11: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:683:7: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:683:8: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:683:10: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:683:11: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:683:13: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:683:14: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:684:7: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:684:8: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:684:10: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:684:11: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:686:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:686:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:686:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:686:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:688:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:688:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:688:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:688:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:689:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:689:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:692:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:692:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:693:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:693:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:694:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:694:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:695:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:695:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:699:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:699:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:700:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:700:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:701:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:701:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:703:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:703:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:704:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:704:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:705:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:705:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:707:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:707:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:709:1: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:709:2: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:714:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:714:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:715:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:715:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:716:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:716:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:717:1: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:717:2: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:6: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:7: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:9: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:10: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:12: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:13: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:15: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:16: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:18: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:19: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:21: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:22: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:24: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:25: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:27: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:28: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:30: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:31: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:33: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:34: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:36: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:37: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:39: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:718:40: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:719:1: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:719:2: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:720:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:720:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:721:1: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:721:2: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:722:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:722:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:728:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:728:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:729:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:729:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:731:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:731:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:732:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:732:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:732:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:732:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:733:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:733:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:733:8: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:733:9: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:734:5: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:734:6: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:736:3: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:736:4: error: stray '\240' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:737:1: error: stray '\302' in program
+C:\Users\Educação\Desktop\frameEvolution\frameEvolution.ino:737:2: error: stray '\240' in program
+
+exit status 1
+
+Compilation error: stray '\302' in program
