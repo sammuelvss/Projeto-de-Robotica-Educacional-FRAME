@@ -1,16 +1,30 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import heroImg from './assets/hero.png'
 import './App.css'
 import Controle from './Controle'
 
 function App() {
   const [view, setView] = useState('home')
+  const [isLightMode, setIsLightMode] = useState(false)
+
+  useEffect(() => {
+    if (isLightMode) {
+      document.body.classList.add('light-mode')
+    } else {
+      document.body.classList.remove('light-mode')
+    }
+  }, [isLightMode])
+
+  const toggleTheme = () => setIsLightMode(!isLightMode)
 
   if (view === 'controle') {
     return (
       <>
         <button className="back-button" onClick={() => setView('home')}>
           ← Voltar ao Início
+        </button>
+        <button className="theme-toggle" onClick={toggleTheme}>
+          {isLightMode ? '🌙' : '☀️'}
         </button>
         <Controle />
       </>
@@ -19,6 +33,9 @@ function App() {
 
   return (
     <>
+      <button className="theme-toggle" onClick={toggleTheme}>
+        {isLightMode ? '🌙' : '☀️'}
+      </button>
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="220" alt="Robô FRAME" />

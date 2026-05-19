@@ -6,7 +6,7 @@
   --text-h: #ffffff;
   --border: #2e3244;
   
-  --accent: #9d4edd; /* Roxo vibrante */
+  --accent: #9d4edd;
   --accent-glow: rgba(157, 78, 221, 0.4);
   --accent-bg: rgba(157, 78, 221, 0.15);
   
@@ -26,6 +26,27 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.light-mode {
+  --bg: #f8f9fa;
+  --bg-surface: #ffffff;
+  --bg-card: #f1f3f5;
+  --text: #495057;
+  --text-h: #212529;
+  --border: #dee2e6;
+  
+  --accent: #7b2cbf;
+  --accent-glow: rgba(123, 44, 191, 0.2);
+  --accent-bg: rgba(123, 44, 191, 0.1);
+  
+  --primary-joy: #0099ff;
+  --success-green: #2ecc71;
+  --danger-red: #e74c3c;
+  --robot-yellow: #f1c40f;
+  
+  color-scheme: light;
 }
 
 /* Custom Scrollbar */
@@ -68,6 +89,11 @@ body {
   flex-direction: column;
   box-sizing: border-box;
   background: radial-gradient(circle at top right, #1a1c2c 0%, #0a0b10 100%);
+  transition: background 0.3s ease;
+}
+
+.light-mode #root {
+  background: radial-gradient(circle at top right, #ffffff 0%, #f8f9fa 100%);
 }
 
 h1, h2, h3 {
